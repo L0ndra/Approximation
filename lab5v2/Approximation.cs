@@ -100,7 +100,7 @@ namespace lab5v2
                 else
                     s2 += y;
                 x += h;
-                //i++;
+                
             }
             return h * (y0 + y1 + 4 * s1 + 2 * s2) / 3.0;
         }
